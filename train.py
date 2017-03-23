@@ -105,7 +105,7 @@ long_edge = args.long_edge
 dir_sketch = "data/sketch/"
 file_sketch = os.listdir(dir_sketch)
 file_sketch.sort()
-num_sketch = int(2) #len(file_sketch)
+num_sketch = len(file_sketch)
 logging.info("Num of sketches: %d" % num_sketch)
 
 dir_photo = "data/photo/"
