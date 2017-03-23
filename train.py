@@ -43,7 +43,7 @@ parser.add_argument('--kv-store', type=str, default='local',
                     help='the kvstore type')
 parser.add_argument('--log-file', type=str, default="log_tr_sketch",
                     help='the name of log file')
-parser.add_argument('--log-dir', type=str, default='../log/',
+parser.add_argument('--log-dir', type=str, default='log/',
                     help='directory of the log file')
 
 args = parser.parse_args()
