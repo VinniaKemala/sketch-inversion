@@ -32,7 +32,7 @@ dir_sketch = "data/sketch/"
 file_sketch = os.listdir(dir_sketch)
 file_sketch.sort()
 training = int(0.7*len(file_sketch)) # 70%
-num_sketch = int(1) #int(len(file_sketch) - training) # 30%
+num_sketch = int(len(file_sketch) - training) # 30%
 logging.info("Num of sketches: %d" % num_sketch)
 
 # Init sketch
