@@ -37,7 +37,7 @@ For each image in the CelebA and LFW datasets was automatically transformed to a
 
 Augmented CUHK dataset:
 ```
-https://drive.google.com/file/d/0B08-z6c0wKDQWlNUMXZfa2ZGNnM/view?usp=sharing
+https://drive.google.com/file/d/0B08-z6c0wKDQWlNUMXZfa2ZGNnM/view?usp=sharing&resourcekey=0-8FW8V0czeTqTK7gQoqpY8A
 ```
 It contains 17,108 hand-drawn sketches and their corresponding photographs
 with 70% is used for training (11,975 images) and 30% is used for testing (5,133 images).
